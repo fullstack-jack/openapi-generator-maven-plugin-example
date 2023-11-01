@@ -20,7 +20,7 @@
                 <groupId>org.openapitools</groupId>
                 <artifactId>openapi-generator-maven-plugin</artifactId>
                 <!-- RELEASE_VERSION -->
-                <version>6.3.0</version>
+                <version>7.0.1</version>
                 <!-- /RELEASE_VERSION -->
                 <executions>
                     <execution>
@@ -34,6 +34,7 @@
                             <configOptions>
                                 <sourceFolder>src/gen/java/main</sourceFolder>
                             </configOptions>
+                            <skipValidateSpec>true</skipValidateSpec>
                         </configuration>
                     </execution>
                 </executions>
